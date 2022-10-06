@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_explorar"
+        android:name="com.example.contrata.ui.home.HomeFragment"
+        android:label="@string/title_explorar"
+        tools:layout="@layout/fragment_explorar" />
+
+    <fragment
+        android:id="@+id/navigation_calendario"
+        android:name="com.example.contrata.ui.dashboard.DashboardFragment"
+        android:label="@string/title_calendaro"
+        tools:layout="@layout/fragment_calendario" />
+
+    <fragment
+        android:id="@+id/navigation_mensagem"
+        android:name="com.example.contrata.ui.notifications.NotificationsFragment"
+        android:label="@string/title_mensagem"
+        tools:layout="@layout/fragment_conversa" />
+</navigation>

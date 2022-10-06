@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Contrata</string>
+
+    <string-array name="regiões">
+        <item>Norte</item>
+        <item>Nordeste</item>
+        <item>Centro-Oeste</item>
+        <item>Sudeste</item>
+        <item>Sul</item>
+    </string-array>
+
+    <string-array name="você">
+        <item>Artista</item>
+        <item>Contratante</item>
+    </string-array>
+
+    <string name="title_activity_navbar">navbar</string>
+    <string name="title_explorar">Explorar</string>
+    <string name="title_calendaro">Calendário</string>
+    <string name="title_mensagem">Mensagens</string>
+    <string name="title_usuario">Usuário</string>
+</resources>
